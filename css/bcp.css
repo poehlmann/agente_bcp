@@ -72,12 +72,18 @@ button{
   font-size: 1rem;
   color: #F26E29;
 }
-
+.bg-gray{
+  background-color: rgba(50, 51, 92, 0.1);
+}
+.bg-darkgray{
+  background-color: rgba(0, 43, 118, 0.2);
+}
 .btn-complete{
   color: #ffffff;
   background-color: #F26E29;
   border-color: #F26E29;
   line-height: 20px;
+  padding: 0.6rem 0.75rem;
 }
 
 .btn-outline{
@@ -102,19 +108,21 @@ img {
 }
 
 a {
-  color: #53607E;
+  color: #F26E29;
   cursor: pointer;
-  text-decoration: underline;
-  text-decoration-style: dotted;
 }
 a:hover {
-  color: #F26E29;
+  color: #004886;
   text-decoration: none;
 }
 .o-list-inline, li {
   list-style: square;
 }
-
+.align_vertical{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
 .figure {
   display: flex;
   flex-flow: column;
@@ -153,11 +161,30 @@ img {
 }
 
 .bg{
-  background: url(https://bcp.com.bo/Content/images/fourth-pattern-16ad26d8.jpg) repeat repeat fixed;
+
+  background: url(https://abbl.com/wp-content/uploads/2018/06/agent-banking-banner-bg.jpg) no-repeat center center;
+  background-size: cover;
   /*background: rgb(0,72,134);*/
   /*background: linear-gradient(90deg, rgba(0,72,134,0.4962359943977591) 0%, rgba(227,228,229,0.4962359943977591) 50%, rgba(245,125,49,0.5018382352941176) 100%);*/
 }
-
+.font-size-50{
+  font-size: 50px;
+}
+/*.bg:before {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  height: 68%;*/
+/*  background-color: rgba(0,0,0,0.6);*/
+/*  border-bottom-left-radius: 38%;*/
+/*  border-bottom-right-radius: 38%;*/
+/*}*/
+.txt-white{
+  color: #ffffff;
+}
 /*lista */
 .olcards,
 .olcards * {
@@ -261,7 +288,7 @@ img {
   padding: 20px 0 20px 20px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 background: #fff;
-width: calc(22vw - 100px);
+width: calc(22vw);
 border-radius: 0 6px 6px 0;
 }
 .timeline__event__description p,ul{
@@ -311,6 +338,7 @@ animation: fillLeftOdd 2s forwards 4s ease-in-out;
 }
 .timeline__event__description {
 flex-basis: 60%;
+  text-align: left;
 }
 .timeline__event--type2:after {
 background: #555ac0;

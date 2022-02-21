@@ -9,9 +9,6 @@ $('#operacion_bcp').click(function(){
       '<section style="padding-top: 0!important;padding-bottom: 0 !important;">\n' +
       '      <div class="timeline">\n' +
       '        <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">\n' +
-      '          <div class="timeline__event__icon ">\n' +
-      '            💵\n' +
-      '          </div>\n' +
       '          <div class="timeline__event__date">\n' +
       '            &nbsp;&nbsp;💵&nbsp;&nbsp;\n' +
       '          </div>\n' +
@@ -25,9 +22,6 @@ $('#operacion_bcp').click(function(){
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">\n' +
-      '          <div class="timeline__event__icon">\n' +
-      '            💡\n' +
-      '          </div>\n' +
       '          <div class="timeline__event__date">\n' +
       '            &nbsp;&nbsp;💡&nbsp;&nbsp;\n' +
       '          </div>\n' +
@@ -41,9 +35,6 @@ $('#operacion_bcp').click(function(){
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">\n' +
-      '          <div class="timeline__event__icon">\n' +
-      '            🔄\n' +
-      '          </div>\n' +
       '          <div class="timeline__event__date">\n' +
       '            &nbsp;&nbsp;🔄&nbsp;&nbsp;\n' +
       '          </div>\n' +
@@ -57,9 +48,6 @@ $('#operacion_bcp').click(function(){
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="timeline__event animated fadeInUp timeline__event--type1">\n' +
-      '          <div class="timeline__event__icon">\n' +
-      '            💳\n' +
-      '          </div>\n' +
       '          <div class="timeline__event__date">\n' +
       '            &nbsp;&nbsp;💳&nbsp;&nbsp;\n' +
       '          </div>\n' +
@@ -73,9 +61,6 @@ $('#operacion_bcp').click(function(){
       '          </div>\n' +
       '        </div>\n' +
       '        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">\n' +
-      '          <div class="timeline__event__icon">\n' +
-      '            💸\n' +
-      '          </div>\n' +
       '          <div class="timeline__event__date">\n' +
       '            &nbsp;&nbsp; 💸 &nbsp;&nbsp;\n' +
       '          </div>\n' +
