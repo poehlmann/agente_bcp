@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3812efb-143f-4b15-b9aa-b7f1fef9b8d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bcp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bcp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bcp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bcp.js" afterDir="false" />
-    </list>
+    <list default="true" id="a3812efb-143f-4b15-b9aa-b7f1fef9b8d1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +92,7 @@
       <workItem from="1645798151283" duration="97000" />
       <workItem from="1645801320073" duration="4300000" />
       <workItem from="1648148308017" duration="5353000" />
+      <workItem from="1648181738773" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -112,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645471208929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="agente">
+      <created>1648181759845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648181759845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,13 +136,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="actualizacion web" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="agente" />
+    <option name="LAST_COMMIT_MESSAGE" value="agente" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1645471223699">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1648181762670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645471223699" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648181762670" />
     <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1645802554964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
