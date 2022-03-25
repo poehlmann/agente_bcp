@@ -93,6 +93,7 @@
       <workItem from="1645801320073" duration="4300000" />
       <workItem from="1648148308017" duration="5353000" />
       <workItem from="1648181738773" duration="38000" />
+      <workItem from="1648214363428" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648181759845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fuente bcp">
+      <created>1648214443804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648214443805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,18 +145,19 @@
     <MESSAGE value="actualizacion web" />
     <MESSAGE value="update" />
     <MESSAGE value="agente" />
-    <option name="LAST_COMMIT_MESSAGE" value="agente" />
+    <MESSAGE value="fuente bcp" />
+    <option name="LAST_COMMIT_MESSAGE" value="fuente bcp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1648181762670">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1648214620040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648181762670" />
-    <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1645802554964">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648214620040" />
+    <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1648214422853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1386" y="200" width="549" height="534" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1643934633906" />
-    <state x="244" y="253" width="1600" height="592" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1645802554964" />
+    <state x="244" y="253" width="1600" height="592" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648214422853" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1644978681438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

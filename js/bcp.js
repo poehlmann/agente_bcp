@@ -159,21 +159,21 @@ $('#beneficio_usar').click(function(){
       '        <div class="row justify-content-md-center">\n' +
       '          <div class="col-md-12" >\n' +
       '            <ol class="olcards">\n' +
-      '              <li class="wow fadeInLeft" data-wow-delay=".25s" style="--cardColor:#203864">\n' +
+      '              <li style="--cardColor:#203864">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">🕔</div>\n' +
       '                  <div class="title">Horario extendido</div>\n' +
       '                  <div class="text">Atención en horarios extendidos en comparación con las oficinas del banco.</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
-      '              <li class="wow fadeInLeft" data-wow-delay=".45s" style="--cardColor:rgba(0, 43, 118, 0.7)">\n' +
+      '              <li style="--cardColor:rgba(0, 43, 118, 0.7)">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">📍</div>\n' +
       '                  <div class="title">Más cerca de tus clientes</div>\n' +
       '                  <div class="text">Te encontrarias en diferentes zonas de la ciudad, estando más cerca de tus clientes</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
-      '              <li class="wow fadeInLeft" data-wow-delay=".65s" style="--cardColor:rgba(0, 43, 118, 0.4)">\n' +
+      '              <li style="--cardColor:rgba(0, 43, 118, 0.4)">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">🚶‍♀</div>\n' +
       '                  <div class="title">Sin colas de espera</div>\n' +
@@ -198,28 +198,28 @@ $('#beneficio_ser').click(function(){
       '        <div class="row justify-content-md-center">\n' +
       '          <div class="col-md-12" >\n' +
       '             <ol class="olcards">\n' +
-      '              <li class="wow fadeInRight" data-wow-delay=".25s" style="--cardColor:#2B9BE0">\n' +
+      '              <li style="--cardColor:#2B9BE0">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">📈</div>\n' +
       '                  <div class="title">Mayor productividad</div>\n' +
       '                  <div class="text">Vuelves mas productivo el tiempo sin actividad en tu negocio</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
-      '              <li class="wow fadeInRight" data-wow-delay=".45s" style="--cardColor:rgba(43, 155, 224, 0.7)">\n' +
+      '              <li style="--cardColor:rgba(43, 155, 224, 0.7)">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">👥</div>\n' +
       '                  <div class="title">Incremento de clientes</div>\n' +
       '                  <div class="text">Generarás una mayor cantidad de clientes, lo que significa oportunidad de subir tus ventas</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
-      '              <li class="wow fadeInRight" data-wow-delay=".65s" style="--cardColor:rgba(43, 155, 224, 0.5)">\n' +
+      '              <li style="--cardColor:rgba(43, 155, 224, 0.5)">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">🗣️</div>\n' +
       '                  <div class="title">Clientes concurrentes</div>\n' +
       '                  <div class="text">Tus clientes volverán ya que verán la comodidad de pagar a travéz de tu negocio</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
-      '              <li class="wow fadeInRight" data-wow-delay=".85s" style="--cardColor:rgba(43, 155, 224, 0.3)">\n' +
+      '              <li style="--cardColor:rgba(43, 155, 224, 0.3)">\n' +
       '                <div class="content">\n' +
       '                  <div class="icon">➕</div>\n' +
       '                  <div class="title">Mayor gama de servicios</div>\n' +
@@ -259,10 +259,10 @@ $('#requisitos_agente_bcp').click(function(){
       '        </svg>\n' +
       '        <div class="row justify-content-md-center">\n' +
       '          <div class="col-md-auto " >\n' +
-      '            <h3 class="wow fadeInLeft text-center pd-l-r">Requisitos para negocios propios</h3>\n' +
-      '            <h4 class="wow fadeInLeft pd-l-r">Cualquier tipo de comercio que tenga <br>antiguedad de negocio puede ser agente BCP</h4>\n' +
+      '            <h3 class="text-center pd-l-r">Requisitos para negocios propios</h3>\n' +
+      '            <h4 class="pd-l-r">Cualquier tipo de comercio que tenga <br>antiguedad de negocio puede ser agente BCP</h4>\n' +
       '            <div class="todo-list">\n' +
-      '              <label class="todo wow fadeInLeft" data-wow-delay=".25s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_propio "  type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon " >\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -272,7 +272,7 @@ $('#requisitos_agente_bcp').click(function(){
       '                </svg>\n' +
       '                <div class="todo__text " >Fotocopia de CI vigente</div>\n' +
       '              </label>\n' +
-      '              <label class="todo wow fadeInLeft" data-wow-delay=".45s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_propio" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -282,7 +282,7 @@ $('#requisitos_agente_bcp').click(function(){
       '                </svg>\n' +
       '                <div class="todo__text">Licencia de funcionamiento</div>\n' +
       '              </label>\n' +
-      '              <label class="todo wow fadeInLeft" data-wow-delay=".65s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_propio" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -292,7 +292,7 @@ $('#requisitos_agente_bcp').click(function(){
       '                </svg>\n' +
       '                <div class="todo__text">NIT</div>\n' +
       '              </label>\n' +
-      '              <label class="todo wow fadeInLeft" data-wow-delay=".85s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_propio" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -307,7 +307,7 @@ $('#requisitos_agente_bcp').click(function(){
       '                                        </ul>\n' +
       '                </div>\n' +
       '              </label>\n' +
-      '              <label class="todo wow fadeInLeft" data-wow-delay="1.05s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_propio" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -317,7 +317,7 @@ $('#requisitos_agente_bcp').click(function(){
       '                </svg>\n' +
       '                <div class="todo__text">Antecedentes Policiales y Judiciales</div>\n' +
       '              </label>\n' +
-      '              <label class="todo wow fadeInLeft" data-wow-delay="1.25s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_propio" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -330,10 +330,10 @@ $('#requisitos_agente_bcp').click(function(){
       '            </div>\n' +
       '          </div>\n' +
       '          <div class="col-md-auto">\n' +
-      '            <h3  class="wow fadeInRight text-center pd-l-r">Requisitos para negocios SRL o SA</h3>\n' +
-      '            <h4 class="wow fadeInRight pd-l-r">Además de los requisitos ya planteados, debes proporcionarnos:<br><br></h4>\n' +
+      '            <h3  class="text-center pd-l-r">Requisitos para negocios SRL o SA</h3>\n' +
+      '            <h4 class="pd-l-r">Además de los requisitos ya planteados, debes proporcionarnos:<br><br></h4>\n' +
       '            <div class="todo-list">\n' +
-      '              <label class="todo wow fadeInRight" data-wow-delay=".25s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_srl" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
@@ -343,7 +343,7 @@ $('#requisitos_agente_bcp').click(function(){
       '                </svg>\n' +
       '                <div class="todo__text">Poder del representante legal</div>\n' +
       '              </label>\n' +
-      '              <label class="todo wow fadeInRight" data-wow-delay=".45s">\n' +
+      '              <label class="todo">\n' +
       '                <input class="todo__state check_srl" type="checkbox" />\n' +
       '                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">\n' +
       '                  <use xlink:href="#todo__line" class="todo__line"></use>\n' +
