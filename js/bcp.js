@@ -1,3 +1,16 @@
+new WOW().init();
+
+wow = new WOW(
+  {
+    boxClass: 'wow',      // default
+    animateClass: 'animated', // default
+    offset: 0,          // default
+    mobile: true,       // default
+    live: true        // default
+  }
+)
+wow.init();
+
 $('#operacion_bcp').click(function(){
   Swal.fire({
     title: '<strong>Puedes realizar:</strong>',
@@ -348,6 +361,21 @@ $('#requisitos_agente_bcp').click(function(){
   })
 
 });
+var iframe_agentes = document.createElement('iframe');
+iframe_agentes.width="100%";
+iframe_agentes.height="400px";
+if (window.navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+  function successCallback(datos) {
+    var YOUR_LAT = datos.coords.latitude;
+    var YOUR_LON = datos.coords.longitude
+    iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1c-4Q_TdzDhEqJt9doxRdflRERDPUkUDl&ehbc&ll='+YOUR_LAT+'%2C'+YOUR_LON+'&z=13');
+  }
+
+  function errorCallback(error) {
+    iframe_agentes.setAttribute("src", 'https://www.google.com/maps/d/embed?hl=es&mid=1c-4Q_TdzDhEqJt9doxRdflRERDPUkUDl&ehbc');
+  }
+}
 
 $('#agentes-cercanos').click(function(){
   Swal.fire({
@@ -356,9 +384,36 @@ $('#agentes-cercanos').click(function(){
     confirmButtonColor: '#F26E29',
     cancelButtonColor: '#E3E4E5',
     confirmButtonText: 'Listo!',
-    html:
-      '<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1pMd3NZdrUhqfGps3qEePFRPeVEcXgn6u&ehbc=2E312F" width="640" height="480"></iframe>',
+    html: iframe_agentes,
     showCloseButton: true
   })
+});
 
+
+
+$(document).ready(function() {
+  // Gets the video src from the data-src on each button
+  var $videoSrc;
+  $(".video-btn").click(function() {
+    $videoSrc = $(this).attr("data-src");
+    console.log("button clicked" + $videoSrc);
+  });
+
+  // when the modal is opened autoplay it
+  $("#myModal").on("shown.bs.modal", function(e) {
+    console.log("modal opened" + $videoSrc);
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#video").attr(
+      "src",
+      $videoSrc + "?autoplay=1&showinfo=0&modestbranding=1&rel=0&mute=1"
+    );
+  });
+
+  // stop playing the youtube video when I close the modal
+  $("#myModal").on("hide.bs.modal", function(e) {
+    // a poor man's stop video
+    $("#video").attr("src", $videoSrc);
+  });
+
+  // document ready
 });
