@@ -20,60 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3812efb-143f-4b15-b9aa-b7f1fef9b8d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bcp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bcp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/AG BCP PARA INFORME.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Art5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Comercios-webop1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Imagen1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Imagen2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Imagen3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/agente bcp circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/agente_bcp_circle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/agente-bcp-requisitos3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banco-de-credito-del-peru-iquitos-city-guide-06-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner2.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sec7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/soli-ferreterias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/soli-puestos-mercados.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/soli-restaurantes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/soli-tienda-barrio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/soli-tienda-ropa.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +99,7 @@
       <workItem from="1648214363428" duration="2794000" />
       <workItem from="1648818406419" duration="4387000" />
       <workItem from="1650031650048" duration="1246000" />
-      <workItem from="1650379219197" duration="6012000" />
+      <workItem from="1650379219197" duration="7492000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -195,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650031975884</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nuevas imagenes">
+      <created>1650392497811</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650392497812</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +174,8 @@
     <MESSAGE value="agente" />
     <MESSAGE value="fuente bcp" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="nuevas imagenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevas imagenes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650379484401">
@@ -230,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648828104704" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650031991096">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650392712020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650031991096" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650392712020" />
     <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1650383737171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
