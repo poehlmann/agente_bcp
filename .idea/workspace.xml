@@ -20,6 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3812efb-143f-4b15-b9aa-b7f1fef9b8d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Agente-BCP-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Agente-BCP-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Agente-BCP-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Agente-BCP-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Agente-BCP-home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Agente-BCP-home2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fondo-agente-bcp.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/bcp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bcp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -102,7 +109,7 @@
       <workItem from="1648818406419" duration="4387000" />
       <workItem from="1650031650048" duration="1246000" />
       <workItem from="1650379219197" duration="10342000" />
-      <workItem from="1650459438867" duration="5919000" />
+      <workItem from="1650459438867" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -167,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650397526600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modificaciones">
+      <created>1650466406414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650466406415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +206,8 @@
     <MESSAGE value="fuente bcp" />
     <MESSAGE value="fixes" />
     <MESSAGE value="nuevas imagenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevas imagenes" />
+    <MESSAGE value="modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificaciones" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650379484401">

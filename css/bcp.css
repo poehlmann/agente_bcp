@@ -1187,6 +1187,9 @@ img.hero-img {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
     /*padding-top: 12em;*/
   }
+  img{
+    width: 28%;
+  }
 }
 @media only screen and (max-width: 1919px) {
   .body_banner {
@@ -1207,10 +1210,16 @@ img.hero-img {
     width: 65%;
   }
   #section-1 {
-    height: 40em;
+    height: 100vh;
   }
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
-    padding-top: 9em;
+    padding-top: 2em;
+  }
+  img{
+    width: 28%;
+  }
+  .btn-complete{
+    padding: 0.3rem 0.7rem;
   }
 }
 @media only screen and (max-width: 1366px) {
