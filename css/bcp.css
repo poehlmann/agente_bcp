@@ -1243,7 +1243,7 @@ img.hero-img {
     width: 100%;
   }
   .img-banner{
-    width: 26%;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1366px) {
