@@ -76,6 +76,18 @@ button{
 .bg-gray{
   background-color: rgba(50, 51, 92, 0.1);
 }
+.color-orange{
+  color: #F26E29 !important;
+}
+.bg-blue{
+  background-color: #0c66be;
+}
+.bg-white{
+  background-color: #ffffff;
+}
+.bg-organge{
+  background-color: #f1891a;
+}
 .bg-darkgray{
   background-color: rgba(0, 43, 118, 0.2);
 }
@@ -91,10 +103,19 @@ button{
   color: #F26E29;
   border-color: #F26E29;
 }
+.btn-outline-white {
+  color: #ffffff;
+  border-color: #ffffff;
+}
 .btn-outline:hover {
   color: #004685;
   background-color: #F26E29;
   border-color: #F26E29;
+}
+.btn-outline-white:hover {
+  color: #ffffff;
+  background-color: #004685;
+  border-color: #ffffff;
 }
 video {
   display: inline-block;
@@ -180,7 +201,7 @@ ul {
 /*  border-bottom-right-radius: 38%;*/
 /*}*/
 .txt-white{
-  color: #ffffff;
+  color: #ffffff !important;
 }
 /*lista */
 .olcards,
@@ -1220,6 +1241,9 @@ img.hero-img {
   }
   img{
     width: 100%;
+  }
+  .img-banner{
+    width: 26%;
   }
 }
 @media only screen and (max-width: 1366px) {
