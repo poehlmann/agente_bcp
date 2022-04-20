@@ -663,7 +663,7 @@ hr {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .img-banner{
+  img{
     max-width: 100%;
   }
   .align_vertical {
@@ -1187,7 +1187,7 @@ img.hero-img {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
     /*padding-top: 12em;*/
   }
-  .img-banner{
+  img{
     width: 28%;
   }
 }
@@ -1215,11 +1215,8 @@ img.hero-img {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
     padding-top: 2em;
   }
-  .img-banner{
-    width: 28%;
-  }
-  .btn-complete{
-    padding: 0.3rem 0.7rem;
+  img{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1366px) {
@@ -1286,7 +1283,7 @@ img.hero-img {
   .btn-complete{
     padding: 0.3rem 0.7rem;
   }
-  .img-banner {
+  img {
     max-width: 80%;
   }
 }
