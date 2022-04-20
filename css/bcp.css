@@ -664,7 +664,7 @@ hr {
     padding-bottom: 60px;
   }
   img{
-    max-width: 200px;
+    max-width: 100%;
   }
   .align_vertical {
     margin-bottom: 40px;
@@ -933,3 +933,392 @@ img.hero-img {
   opacity: 1;
 }
 /*end modal*/
+
+/*banner*/
+.body_banner {
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+}
+.body_banner #section-1 {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.body_banner #section-1 h1, .body_banner #section-1 h2, .body_banner #section-1 h3, .body_banner #section-1 h4, .body_banner #section-1 h5, .body_banner #section-1 h6, .body_banner #section-1 ul, .body_banner #section-1 li {
+  margin: 0;
+  padding: 0;
+}
+.body_banner #section-1 h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.body_banner #section-1 h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.body_banner #section-1 h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.body_banner #section-1 h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.body_banner #section-1 p {
+  line-height: 150%;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9375em;
+  color: #ffffff;
+}
+.body_banner #section-1 li {
+  list-style-type: none;
+}
+.body_banner #section-1 a {
+  text-decoration: none;
+}
+#section-1 .bg-wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8));
+}
+#section-1 .section-header {
+  padding-top: 5.625em;
+  text-align: center;
+}
+#section-1 .section-header h3 {
+  margin-bottom: 0.5em;
+}
+#section-1 .section-header .line-red {
+  margin: 2.5em auto 2.9375em auto;
+}
+#section-1 .line-red {
+  display: block;
+  width: 4em;
+  height: 0.1875em;
+  margin: 0 auto;
+  background: #f38181;
+}
+
+#section-1 {
+  height: 38em;
+  color: #fff;
+  background-color: #222;
+}
+#section-1 .content-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section-1 .content-slider input {
+  display: none;
+}
+#section-1 .content-slider .slider {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+#section-1 .content-slider .slider .banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all .5s ease;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper {
+  height: 100%;
+  padding-top: 3em;
+  /*background-image: linear-gradient(rgba(243,110,41,0.6),rgba(9,106,192,0.9));*/
+  background: url(../img/fondo-agente-bcp.jpeg) no-repeat center center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+  padding-bottom: 0.3em;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 2.5em;
+  text-transform: none;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+  font-size: 2em;
+  line-height: 95%;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+  display: block;
+  width: 4em;
+  height: 0.1875em;
+  margin: 1.5em auto;
+  background: #fff;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {
+  padding-bottom: 5em;
+  z-index: 15 !important;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a {
+  padding: 0.5em 2em;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875em;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0.1875em solid #fff;
+}
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
+  color: #e88382;
+  border-color: #e88382;
+  transition: .3s;
+}
+#section-1 .content-slider .slider #top-banner-1 {
+  /*background: url('../img/Agente-BCP-1.png') no-repeat center center;*/
+  /*background-size: cover;*/
+
+}
+#section-1 .content-slider .slider #top-banner-2 {
+  background: url('../img/Agente-BCP-2.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-3 {
+  background: url('../img/Agente-BCP-3.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-4 {
+  background: url('../img/Agente-BCP-4.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider nav {
+  position: absolute;
+  bottom: 0.5em;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+#section-1 .content-slider nav .controls {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+#section-1 .content-slider nav .controls label {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 25px;
+  overflow: hidden;
+  margin: 0 1em;
+  padding-top: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  color: #f6eac5;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all .3s;
+}
+#section-1 .content-slider nav .controls label .progressbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: #f6eac5;
+  z-index: 100;
+}
+#section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+  position: inherit;
+  width: inherit;
+  height: inherit;
+  margin-left: -100%;
+  background: #e88382;
+}
+#section-1 .content-slider nav .controls label span {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+#section-1 .content-slider nav .controls label:hover {
+  color: #e88382;
+}
+#section-1 .content-slider #banner1:checked ~ .slider #top-banner-1, #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2, #section-1 .content-slider #banner3:checked ~ .slider #top-banner-3, #section-1 .content-slider #banner4:checked ~ .slider #top-banner-4 {
+  opacity: 1;
+  z-index: 1;
+}
+#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1), #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2), #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3), #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) {
+  cursor: default;
+  color: #fff;
+  transition: all .5s;
+}
+#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar, #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar, #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar, #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar {
+  background: #fff;
+}
+#section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill, #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar-fill, #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar-fill, #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill {
+  animation: progressBarFill 5s linear;
+}
+@keyframes progressBarFill {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .body_banner {
+    font-size: 22px;
+  }
+  #section-1 {
+    height: 100vh;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    /*padding-top: 12em;*/
+  }
+}
+@media only screen and (max-width: 1919px) {
+  .body_banner {
+    font-size: 20px;
+  }
+  #section-1 {
+    height: 43em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    padding-top: 11em;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .body_banner #section-1 {
+    font-size: 18px;
+  }
+  .main-header .header-wrapper {
+    width: 65%;
+  }
+  #section-1 {
+    height: 40em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    padding-top: 9em;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .body_banner #section-1 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  #section-1 {
+    height: 100vh;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+    font-size: 3em;
+  }
+  .body_banner #section-1 p {
+    font-size: 2em;
+  }
+  #section-1 .content-slider nav .controls {
+    width: 90%;
+  }
+  #section-1 .content-slider nav {
+    bottom: -0.2em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    padding-top: 7em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+    margin: 2em auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .body_banner #section-1 {
+    font-size: 14px;
+  }
+  #section-1 .content-slider nav {
+    bottom: 0;
+  }
+  #section-1 .content-slider nav .controls {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 860px) {
+  #section-1 {
+    height: 100vh;
+  }
+  .body_banner #section-1 p {
+    font-size: 2em;
+  }
+  /*#section-1 .content-slider nav {*/
+  /*  bottom: 0em;*/
+  /*}*/
+  #section-1 .content-slider nav .controls {
+    width: 90%;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+    font-size: 2em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+    font-size: 4.5em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    padding-top: 3em;
+  }
+  .btn-complete{
+    padding: 0.3rem 0.7rem;
+  }
+  img {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #section-1 {
+    height: 100vh;
+  }
+  #section-1 .content-slider nav .controls {
+    width: 100%;
+  }
+  #section-1 .content-slider nav .controls label {
+    width: 19%;
+    font-size: 0.8em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+    margin: 1.7em auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #section-1 {
+    height: 100vh;
+  }
+  #section-1 .content-slider nav {
+    bottom: -0.5em;
+  }
+  #section-1 .content-slider nav .controls label {
+    width: 40%;
+    font-size: 0.7em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+    font-size: 1.5em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+    font-size: 2em;
+  }
+  #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+    margin: 1.7em auto;
+  }
+  .body_banner #section-1 p {
+    font-size: 1em;
+  }
+}
+
+/*end banner*/
