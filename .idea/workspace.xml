@@ -100,7 +100,7 @@
       <workItem from="1648818406419" duration="4387000" />
       <workItem from="1650031650048" duration="1246000" />
       <workItem from="1650379219197" duration="10342000" />
-      <workItem from="1650459438867" duration="7912000" />
+      <workItem from="1650459438867" duration="8461000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650467148915</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modificaciones">
+      <created>1650468585841</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650468585841</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,15 +230,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648828104704" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650467150196">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650468600296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650467150196" />
-    <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1650426986683">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650468600296" />
+    <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1650468116950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1386" y="200" width="549" height="534" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@-1920.0.1536.824" timestamp="1643934633906" />
-    <state x="244" y="253" width="1600" height="592" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650426986683" />
+    <state x="244" y="253" width="1600" height="592" key="find.popup/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650468116950" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1644978681438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
