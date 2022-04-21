@@ -78,12 +78,14 @@ button{
 }
 .color-orange{
   color: #F26E29 !important;
+  font-weight: 700;
 }
 .color-blue{
-  color: #0e5dac !important;
+  color: #01327f !important;
+  font-weight: 700;
 }
 .bg-blue{
-  background-color: #0e5dac;
+  background-color: #01327f;
 }
 .bg-white{
   background-color: #ffffff;
@@ -906,7 +908,7 @@ img.hero-img {
   line-height: 27px;
 }
 .h2{
-  font-weight: 600;
+  font-weight: 200;
   font-size: 45px;
   line-height: 2.5rem;
   color:#2c4395;
@@ -926,13 +928,13 @@ img.hero-img {
   padding-right: 0px !important;
 }
 .h2-opt{
-  font-weight: 600;
+  font-weight: 200;
   font-size: 45px;
   color:#2c4395;
 }
 .title-opt{
-  font-family: "Francois One", serif;
-  font-weight: 400;
+  /*font-family: "Francois One", serif;*/
+  font-weight: 300;
   font-size: 32px;
 }
 
