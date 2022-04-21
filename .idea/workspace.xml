@@ -100,7 +100,7 @@
       <workItem from="1648818406419" duration="4387000" />
       <workItem from="1650031650048" duration="1246000" />
       <workItem from="1650379219197" duration="10342000" />
-      <workItem from="1650459438867" duration="13446000" />
+      <workItem from="1650459438867" duration="15534000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650485459584</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modificaciones">
+      <created>1650499892328</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650499892328</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648828104704" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650485462121">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650499894144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650485462121" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650499894144" />
     <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1650468116950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

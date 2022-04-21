@@ -1209,7 +1209,7 @@ img.hero-img {
     /*padding-top: 12em;*/
   }
   img{
-    width: 28%;
+    max-width: 28%;
   }
   .img-section{
     width: 100%;
@@ -1226,6 +1226,7 @@ img.hero-img {
     padding-top: 11em;
   }
 }
+
 @media only screen and (max-width: 1680px) {
   .body_banner #section-1 {
     font-size: 18px;
@@ -1240,10 +1241,10 @@ img.hero-img {
     padding-top: 2em;
   }
   img{
-    width: 100%;
+    max-width: 100%;
   }
   .img-banner{
-    width: 100%;
+    max-width: 26%;
   }
 }
 @media only screen and (max-width: 1366px) {
@@ -1330,8 +1331,11 @@ img.hero-img {
   }
 }
 @media only screen and (max-width: 480px) {
+  .img-banner{
+    max-width: 100%;
+  }
   #section-1 {
-    height: 97vh;
+    height: 100vh;
   }
   #section-1 .content-slider nav {
     bottom: -0.5em;
