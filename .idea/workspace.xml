@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3812efb-143f-4b15-b9aa-b7f1fef9b8d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/bcp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bcp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1650031650048" duration="1246000" />
       <workItem from="1650379219197" duration="10342000" />
       <workItem from="1650459438867" duration="19479000" />
-      <workItem from="1650543543593" duration="1270000" />
+      <workItem from="1650543543593" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="actualizacion web">
       <created>1645023023194</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650508825264</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="colores">
+      <created>1650545055190</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650545055190</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +283,8 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="nuevas imagenes" />
     <MESSAGE value="modificaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificaciones" />
+    <MESSAGE value="colores" />
+    <option name="LAST_COMMIT_MESSAGE" value="colores" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650379484401">
@@ -287,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1648828104704" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650508826522">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1650545120971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650508826522" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824/1920.0.1920.1040@0.0.1920.1040" timestamp="1650545120971" />
     <state x="244" y="253" width="1600" height="592" key="find.popup" timestamp="1650468116950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

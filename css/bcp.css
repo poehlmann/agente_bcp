@@ -937,7 +937,9 @@ img.hero-img {
   font-weight: 300;
   font-size: 32px;
 }
-
+.super-strong{
+  font-weight: 600;
+}
 /*modal*/
 .modal-dialog {
   max-width: 800px;
