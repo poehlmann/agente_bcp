@@ -1110,16 +1110,16 @@ img.hero-img {
 
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url('../img/Agente-BCP-2.png') no-repeat center center;
-  background-size: cover;
+  /*background: url('../img/Agente-BCP-2.png') no-repeat center center;*/
+  /*background-size: cover;*/
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url('../img/Agente-BCP-3.png') no-repeat center center;
-  background-size: cover;
+  /*background: url('../img/Agente-BCP-3.png') no-repeat center center;*/
+  /*background-size: cover;*/
 }
 #section-1 .content-slider .slider #top-banner-4 {
-  background: url('../img/Agente-BCP-4.png') no-repeat center center;
-  background-size: cover;
+  /*background: url('../img/Agente-BCP-4.png') no-repeat center center;*/
+  /*background-size: cover;*/
 }
 #section-1 .content-slider nav {
   position: absolute;
@@ -1331,7 +1331,7 @@ img.hero-img {
 }
 @media only screen and (max-width: 480px) {
   #section-1 {
-    height: 100vh;
+    height: 97vh;
   }
   #section-1 .content-slider nav {
     bottom: -0.5em;
