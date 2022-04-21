@@ -43,7 +43,7 @@ $('#operacion_bcp').click(function(){
       '              Pago de Servicios\n' +
       '            </div>\n' +
       '            <div class="timeline__event__description">\n' +
-      '              <p><ul><li>Servicios Básicos</li><li>Empresas de Belleza</li><li>Telefonía, celular, Tv Cable, Internet</li><li>Otras empresas</li></ul></p>\n' +
+      '              <p><ul><li>Servicios Básicos</li><li>Empresas de Belleza</li><li>Telefonía, celular, Tv Cable, Internet</li><li> y muchas empresas más</li></ul></p>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -69,7 +69,20 @@ $('#operacion_bcp').click(function(){
       '              Pagos de créditos\n' +
       '            </div>\n' +
       '            <div class="timeline__event__description">\n' +
-      '              <p><ul><li>Tarjetas de crédito</li><li>Créditos consumo</li><li>Créditos Hipotecarios</li><li>Créditos PyMe y Micro</li></ul></p>\n' +
+      '              <p><ul><li>Pagos de crédito BCP</li><li>Créditos consumo</li><li>Créditos Hipotecarios</li><li>Créditos PyMe y Micro</li></ul></p>\n' +
+      '            </div>\n' +
+      '          </div>\n' +
+      '        </div>\n' +
+      '        <div class="timeline__event animated fadeInUp timeline__event--type2">\n' +
+      '          <div class="timeline__event__date">\n' +
+      '            &nbsp;&nbsp;&nbsp;&nbsp;\n' +
+      '          </div>\n' +
+      '          <div class="timeline__event__content">\n' +
+      '            <div class="timeline__event__title">\n' +
+      '              Giros Nacionales\n' +
+      '            </div>\n' +
+      '            <div class="timeline__event__description">\n' +
+      '              <p><ul><li>Envios de giros nacionales</li><li>Cobros a nivel nacional</li></ul></p>\n' +
       '            </div>\n' +
       '          </div>\n' +
       '        </div>\n' +
@@ -82,7 +95,9 @@ $('#operacion_bcp').click(function(){
       '              Remesas Western Union\n' +
       '            </div>\n' +
       '            <div class="timeline__event__description">\n' +
+      '              <p><ul><li>Cobro de remesas</li></ul><span style="padding-left:45px;font-weight: 700;">* Disponible en puntos específicos</span></p>\n' +
       '            </div>\n' +
+      '          </div>\n' +
       '          </div>\n' +
       '        </div>\n' +
       '      </div>\n' +
@@ -170,7 +185,7 @@ $('#beneficio_usar').click(function(){
       '                <div class="content">\n' +
       '                  <div class="icon">📍</div>\n' +
       '                  <div class="title">Más cerca de tus clientes</div>\n' +
-      '                  <div class="text">Te encontrarias en diferentes zonas de la ciudad, estando más cerca de tus clientes</div>\n' +
+      '                  <div class="text">Al convertirte Agente BCP, serás el punto de atención financiera de tu zona y brindarás comodidad a tus clientes</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
       '              <li style="--cardColor:rgba(0, 43, 118, 0.4)">\n' +
@@ -216,7 +231,7 @@ $('#beneficio_ser').click(function(){
       '                <div class="content">\n' +
       '                  <div class="icon">🗣️</div>\n' +
       '                  <div class="title">Clientes concurrentes</div>\n' +
-      '                  <div class="text">Tus clientes volverán ya que verán la comodidad de pagar a travéz de tu negocio</div>\n' +
+      '                  <div class="text">Tus clientes volverán, ya que verán la comodidad de pagar servicios y realizar operaciones financieras a través de tu negocio</div>\n' +
       '                </div>\n' +
       '              </li>\n' +
       '              <li style="--cardColor:rgba(43, 155, 224, 0.3)">\n' +
@@ -260,7 +275,7 @@ $('#requisitos_agente_bcp').click(function(){
       '        <div class="row justify-content-md-center">\n' +
       '          <div class="col-md-auto " >\n' +
       '            <h3 class="text-center pd-l-r">Requisitos para negocios propios</h3>\n' +
-      '            <h4 class="pd-l-r">Cualquier tipo de comercio que tenga <br>antiguedad de negocio puede ser agente BCP</h4>\n' +
+      '            <h4 class="pd-l-r">Cualquier tipo de comercio que tenga <br>antigüedad de 1 año o más puede ser agente BCP</h4>\n' +
       '            <div class="todo-list">\n' +
       '              <label class="todo">\n' +
       '                <input class="todo__state check_propio "  type="checkbox" />\n' +
@@ -425,9 +440,9 @@ function bannerSwitcher() {
   else $('.sec-1-input').first().prop('checked', true);
 }
 
-var bannerTimer = setInterval(bannerSwitcher, 5000);
+var bannerTimer = setInterval(bannerSwitcher, 500000000);
 
 $('nav .controls label').click(function() {
   clearInterval(bannerTimer);
-  bannerTimer = setInterval(bannerSwitcher, 5000)
+  bannerTimer = setInterval(bannerSwitcher, 5000000000)
 });
