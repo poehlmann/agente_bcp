@@ -30,7 +30,7 @@ section{
 
 h1,h2,h3,h4,h5{
   margin-bottom: 40px;
-  color:#32335C;
+  color:#2c4395;
 }
 h1{
   font-weight: 700;
@@ -38,7 +38,7 @@ h1{
   line-height: 40px;
 }
 h2 {
-  color: #004685;
+  color: #2c4395;
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.5rem;
@@ -59,7 +59,7 @@ h5 {
 p{
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #53607E;
+  color: #808080;
   margin-bottom: 40px;
 }
 small {
@@ -79,8 +79,11 @@ button{
 .color-orange{
   color: #F26E29 !important;
 }
+.color-blue{
+  color: #0e5dac !important;
+}
 .bg-blue{
-  background-color: #0c66be;
+  background-color: #0e5dac;
 }
 .bg-white{
   background-color: #ffffff;
@@ -108,13 +111,13 @@ button{
   border-color: #ffffff;
 }
 .btn-outline:hover {
-  color: #004685;
+  color: #2c4395;
   background-color: #F26E29;
   border-color: #F26E29;
 }
 .btn-outline-white:hover {
   color: #ffffff;
-  background-color: #004685;
+  background-color: #2c4395;
   border-color: #ffffff;
 }
 video {
@@ -134,7 +137,7 @@ a {
   cursor: pointer;
 }
 a:hover {
-  color: #004886;
+  color: #2c4395;
   text-decoration: none;
 }
 .o-list-inline, li {
@@ -906,7 +909,7 @@ img.hero-img {
   font-weight: 600;
   font-size: 45px;
   line-height: 2.5rem;
-  color:#F26E29;
+  color:#2c4395;
 }
 .description{
   margin-top: 30px;
@@ -925,7 +928,7 @@ img.hero-img {
 .h2-opt{
   font-weight: 600;
   font-size: 45px;
-  color:#32335C;
+  color:#2c4395;
 }
 .title-opt{
   font-family: "Francois One", serif;
@@ -1198,6 +1201,9 @@ img.hero-img {
     margin-left: 0;
   }
 }
+.img-section{
+  max-width: 100% !important;
+}
 @media only screen and (min-width: 1920px) {
   .body_banner {
     font-size: 22px;
@@ -1211,9 +1217,7 @@ img.hero-img {
   img{
     max-width: 28%;
   }
-  .img-section{
-    width: 100%;
-  }
+
 }
 @media only screen and (max-width: 1919px) {
   .body_banner {
