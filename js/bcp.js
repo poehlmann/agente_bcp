@@ -440,9 +440,9 @@ function bannerSwitcher() {
   else $('.sec-1-input').first().prop('checked', true);
 }
 
-var bannerTimer = setInterval(bannerSwitcher, 500000000);
+var bannerTimer = setInterval(bannerSwitcher, 5000);
 
 $('nav .controls label').click(function() {
   clearInterval(bannerTimer);
-  bannerTimer = setInterval(bannerSwitcher, 5000000000)
+  bannerTimer = setInterval(bannerSwitcher, 5000)
 });
